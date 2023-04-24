@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: black;
+}
+
+p {
+  color: red !important;
+}
+
+input,
+button {
+  background-color: rgba(256, 256, 256, 0.4);
+  color: red;
+  margin: 1rem;
+  box-shadow: 0 0 10px 5px red;
+}
+
+input::placeholder {
+  color: red;
+}
